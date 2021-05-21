@@ -1,6 +1,5 @@
 #!/bin/bash
 time=`date "+%Y年%m月%d日 %H:%M:%S"`
-#a
 git add --all && \
 git commit -m "${time} project.charts" && \
 git push
